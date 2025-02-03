@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Entreprise Cameroun</title>
+    <link rel="shortcut icon" href="images/JECAM_logo_png.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/stylecontact.css">
+    <!-- Link Swiper's CSS
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+</head>
+
+<body>
+    <!-- Loader -->
+    <script>
+        window.addEventListener("DOMContentLoaded",(event)=>{
+            console.log("DOM entièrement chargé et analysé");
+            setTimeout(function(){
+                document.getElementById("loader").style.top = "-100vh";
+            },1000)            
+        })
+    </script>
+    <nav class="navbar">
+        <div class="containern">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/JECAM_Logo2.png" alt="logo">
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a propos.html">A propos</a></li>
+                    <!-- <li><a href="programmes.html">Programmes</a></li> -->
+                    <li><a href="partenaires.html">Partenaires</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+            </div>
+            <img src="images/burger-bar.png" alt="menu hamburger" class="menu-hamburger">
+            <div class="mobile-menu">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a propos.html">A propos</a></li>
+                    <!-- <li><a href="programmes.html">Programmes</a></li> -->
+                    <li><a href="partenaires.html">Partenaires</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li class="close"><i class="fa-solid fa-xmark"></i></li>
+                </ul>
+            </div>
+    </nav>
+    <div class="loader" id="loader">
+        <p class="text-xl">chargement...</p>
+    </div>
+    <div class="container">
+        <span class="big-circle"></span>
+        <img src="images/shape.png" class="square" alt="" />
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="titles">Nous serons ravis de vous écouter</h3>
+            <p class="text">
+                Si vous souhaitez faire appel à une de nos Junior-Entreprises et déposer votre projet
+            </p>
+  
+            <div class="info">
+              <div class="information">
+                <img src="images/google-maps.png" class="icon" alt="" />
+                <p>BP 5970 Carrefour Mvogt, Yaoundé</p>
+              </div>
+              <div class="information">
+                <img src="images/phone.png" class="icon" alt="" />
+                <p>+237 6 78 78 37 01 / +237 22 20 46 36</p>
+              </div>
+            </div>
+  
+            <div class="social-media">
+              <p>Nos réseaux</p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/juniorentreprisecameroun/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/junior-entreprise-cameroun/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://twitter.com/jecam12">
+                    <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+  
+            <form action="index.html" autocomplete="off">
+              <h3 class="title">Contactez-nous</h3>
+              <div class="input-container">
+                <input type="text" name="name" class="input" />
+                <label for="">nom d'utilisateur</label>
+                <span>nom d'utilisateur</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone" class="input" />
+                <label for="">numéro de téléphone</label>
+                <span>numéro de téléphone</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="envoyez" class="btn" />
+            </form>
+          </div>
+        </div>
+    </div>
+    <footer class="main_footer">
+    <div class="footer_bottom">
+        <div class="footer_info">
+               Tous droits réservés © 2025 Junior Entreprise Cameroun | Designed by&nbsp;<a href="https://www.linkedin.com/in/ntayirollin"> NTAYI NTAYI ROLLIN TRESOR.</a>
+           </div>
+       </div>
+   </footer>
+</body>  
+<SCript>
+    const inputs = document.querySelectorAll(".input");
+    function focusFunc() {
+        let parent = this.parentNode;
+        parent.classList.add("focus");
+    }
+    function blurFunc() {
+        let parent = this.parentNode;
+        if (this.value == "") {
+            parent.classList.remove("focus");
+        }
+    }
+    inputs.forEach((input) => {
+        input.addEventListener("focus", focusFunc);
+        input.addEventListener("blur", blurFunc);
+        });
+</SCript>
+<!-- <script>
+    var btn = document.getElementsByClassName("btn");
+    var slide = document.getElementsByClassName("slide");
+    btn[0].onclick = function () {
+        slide.style.transform = "translateX(0px)";
+        for (i = 0; i < 4; i++) {
+            btn[i].classList.remove("active");
+        }
+        this.classList("active");
+    }
+    btn[1].onclick = function () {
+        slide.style.transform = "translateX(-800px)";
+        for (i = 0; i < 4; i++) {
+            btn[i].classList.remove("active");
+        }
+        this.classList("active");
+    }
+    btn[2].onclick = function () {
+        slide.style.transform = "translateX(-1600px)";
+        for (i = 0; i < 4; i++) {
+            btn[i].classList.remove("active");
+        }
+        this.classList("active");
+    }
+    btn[3].onclick = function () {
+        slide.style.transform = "translateX(-2400px)";
+        for (i = 0; i < 4; i++) {
+            btn[i].classList.remove("active");
+        }
+        this.classList("active");
+    }
+</script> -->
+
+<script>
+    document.addEventListener("DOMContentLoaded",()=>{
+        const menuHamburger = document.querySelector(".menu-hamburger");
+        const close = document.querySelector(".close")
+        const navLinks = document.querySelector(".mobile-menu");
+        menuHamburger.addEventListener('click', () => navLinks.classList.toggle('active'));
+        menuHamburger.addEventListener('click', () => close.classList.toggle('active'));
+        menuHamburger.addEventListener('click', () => menuHamburger.classList.toggle('none'));
+        close.addEventListener('click', () => navLinks.classList.toggle('active'));
+        close.addEventListener('click', () => menuHamburger.classList.toggle('appear'));
+    });
+</script>
+
+<script src="https://kit.fontawesome.com/05852022af.js" crossorigin="anonymous"></script>
+
+</html>
