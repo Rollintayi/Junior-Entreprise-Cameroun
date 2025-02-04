@@ -161,8 +161,8 @@ h1 {
         align-items: center;
     }
 
-    .menu ul li a {
-        color: rgb(223, 196, 185);
+    .navbar .menu{
+        display: none;
     }
 
     .menu ul li a:hover {
