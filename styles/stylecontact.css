@@ -560,11 +560,13 @@ textarea.input {
     display: none;
   }
 
-  form,
+  .form,
   .contact-info {
     padding: 1.7rem 1.6rem;
   }
-
+  .form{
+    margin-top: 5.5rem;
+  }
   .text,
   .information,
   .social-media p {

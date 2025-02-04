@@ -255,6 +255,16 @@ h1 {
     display: flex;
     justify-content: center;
 }
+.btn-Hero a{
+    text-decoration: none;
+    color: #fff;   
+}
+.btn-Hero a:hover{
+    color: rgb(254, 101, 1);
+    transform: scale(1.15);
+    background-color: rgba(255, 255, 255, 0);
+    transition: 0.5s ease-in-out;
+}
 /* Buttons */
 .secondary_btn{
     background-color: rgb(18, 57, 128);
@@ -440,7 +450,7 @@ h1 {
 }
 
 .testititle {
-    color: antiquewhite;
+    color: #fff;
 }
 
 .testimonial {
@@ -896,6 +906,216 @@ h2.plus{
         flex: none;
     }
 }
-@media (max-width:500px){
+@media (max-width:450px){
     
+    section.info,
+    section.about {
+        padding: 20px 40% 20px 2%;
+    }
+    section.about,section.events,section.testimonials{
+        padding: 20px 40% 20px 2%;
+    }
+    .about-content{
+        height: 40%;
+    }
+    .localisation{
+        padding: 20px 15%;
+    }
+    .event{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        background: #fff;
+        max-width: 550px;
+        height: 420px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        border-radius: 12px;
+        overflow: hidden;
+     }
+     .event-text{
+        display: flex;
+        align-items: center ;
+        padding: 0 20px 05px;
+     }
+     .news_text{
+        color: antiquewhite;
+     }
+     .orange_btn:hover {
+        color: rgb(254, 101, 1);
+        transform: scale(1.05);
+        background-color: rgba(255, 255, 255, 0);
+        border: 3px solid rgb(254, 101, 1);
+        transition: 0.5s ease-in-out;
+    }
+    .locontent{
+        width: 90%;
+        max-width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0;
+     }
+     .logoloca{
+        width: 47.25%;
+        margin-right: 5.5%;
+        margin-bottom: 30px;
+        display: flex;
+        flex: 1.5;
+        flex-direction: column;
+     }
+     .footer_info {
+        display: flex;
+        justify-content: center;
+        color: antiquewhite;
+        padding: 20px 40% 20px 2%;
+        font-size: 0.65rem;
+        flex-direction: column;
+     }
+     .footer_info a{
+        padding-left: 100px;
+     }
+     section.counters{
+        padding: 20px 50% 20px 2%;
+     }
+     p.count_text{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .text-mxxl {
+        font-size: 4rem;
+        line-height: 1.2;
+        font-weight: 600;
+        margin: 40px 0 20px;
+    }
+    .home {
+        background: linear-gradient(90deg, rgba(254, 102, 1, 0.681), rgb(254, 101, 1)), url("../images/skyscrapers-high-buildings-new-york-downtown-usa.jpg");
+        min-height: 0px;
+        height: 500px;
+        width: 65%;
+        background-position: 50%;
+        background-size: cover;
+        position: relative;
+    }
+    .slogan{
+        font-size: 2.2rem;
+    }
+    .description p{
+        font-size: 1rem;
+    }
+    .Hero-section{
+        padding: 0 ;
+    }
+    .description{
+        padding: 150px 5% 0 5%;
+    }
+    
+    .text-xxl {
+        font-size: 2rem;
+        line-height: 1.2;
+        font-weight: 600;
+        margin: 40px 0 20px;
+    }
+    
+    .text-xl {
+        font-size: 2.2rem;
+        line-height: 1.4;
+        font-weight: 600;
+        margin: 0px 0 20px;
+    }
+    
+    .text-lg {
+        font-size: 1.8rem;
+        line-height: 1.4;
+        font-weight: normal;
+        margin: 30px 0 20px;
+    }
+    
+    .text-md {
+        font-size: 1rem;
+        line-height: 1.4;
+        font-weight: normal;
+        margin: 10px 0 10px;
+    }
+    
+    .text-sm {
+        font-size: 1rem;
+        line-height: 1.4;
+        font-weight: 300;
+        margin: 10px 0 5px;
+    }
+    .testimonial-word {
+        background: linear-gradient(rgb(231, 86, 37), rgb(215, 71, 23));
+        border-radius: 6px;
+        display: grid;
+        place-items: center;
+        width: 250px;
+        height: 400px;
+    }
+    .image_box_testimonial_ds{
+        width: 200px;
+        height: 200px;
+        margin-right: 5px;
+        background: url("../images/DSighar2.png");
+        border-radius: 6px;
+        background-size: cover;
+    }
+    .image_box_testimonial_jfq{
+        width: 200px;
+        height: 200px;
+        margin-right: 2px;
+        background: url("../images/Jacques-Fame-Ndongo_prime.jpg");
+        border-radius: 6px;
+        background-size: cover;
+    }
+    .image_box_testimonial_ab{
+        width: 300px;
+        height: 200px;
+        margin-right: 5px;
+        background: url("../images/AchilleBasilekin.jpg");
+        border-radius: 6px;
+        background-size: cover;
+    }
+    .image_box_testimonial_pb{
+        width: 160px;
+        height: 200px;
+        margin-right: 5px;
+        background: url("../images/PaulBiya.jpg");
+        border-radius: 6px;
+        background-size: cover;
+    }
+    .testimonial-word p {
+        padding: 20% 20px;
+        color: antiquewhite;
+    }
+    
+    .testititle {
+        color: #fff;
+    }
+    
+    .testimonial {
+        width: 100%;
+        height: 80%;
+        overflow: hidden;
+        padding-top: 10px;
+        padding-bottom: 2px;
+    }
+    .testimonial-word p {
+        padding: 20% 20px;
+        color: antiquewhite;
+        font-size: 0.7rem;
+    }
+    
+    .indicator{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: 0.5px;
+    }
+    .swiper-slide{
+        padding: 0 3%;
+    }
+    .slide-row.PaulBiya{
+        margin-left: 10%;
+    }
 }

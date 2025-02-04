@@ -681,7 +681,7 @@ h1.foottext{
 @media (max-width:960px){
     
 }
-@media (max-width:840px){
+@media (max-width:640px){
     .navbar .menu{
         display: none;
     }
@@ -705,6 +705,9 @@ h1.foottext{
     .content_box{
         width: 100%;
        
+    }
+    .partner-row{
+        flex-direction: column;
     }
     .about{
         margin-bottom: 200px;
