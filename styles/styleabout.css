@@ -1011,6 +1011,13 @@ h1 {
     .localisation{
         padding: 0 0 300px 0;
     }
+    .image_box_owner{
+        width: 95%;
+    }
+    .about{
+        margin-bottom: 100px;
+    }
+    
 }
 @media (max-width:500px){
     .about-content{
@@ -1217,4 +1224,15 @@ h1 {
     .testainer_tipe{
         width: 410px;
     }
+    .text-boxt{
+        position: relative;
+        padding: 20px 10px;
+        background: #fff;
+        border-radius: 6px;
+        font-size: 11px;
+        box-shadow: 0 10px 10px -10px rgba(0, 0, 0, .24);
+     }
+     .text-boxt h2{
+        font-size: 14px;
+     }
 }
