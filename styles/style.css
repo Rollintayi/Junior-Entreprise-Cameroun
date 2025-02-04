@@ -906,21 +906,11 @@ h2.plus{
         flex: none;
     }
 }
-@media (max-width:450px){
-    
-    section.info,
-    section.about {
-        padding: 20px 40% 20px 2%;
-    }
-    section.about,section.events,section.testimonials{
-        padding: 20px 40% 20px 2%;
-    }
+@media (max-width:500px){
     .about-content{
-        height: 40%;
+        height: 600px;
     }
-    .localisation{
-        padding: 20px 15%;
-    }
+    
     .event{
         display: flex;
         flex-wrap: wrap;
@@ -955,6 +945,7 @@ h2.plus{
         display: flex;
         flex-direction: column;
         padding: 30px 0;
+        align-items: center;
      }
      .logoloca{
         width: 47.25%;
@@ -968,15 +959,11 @@ h2.plus{
         display: flex;
         justify-content: center;
         color: antiquewhite;
-        padding: 20px 40% 20px 2%;
         font-size: 0.65rem;
         flex-direction: column;
      }
      .footer_info a{
         padding-left: 100px;
-     }
-     section.counters{
-        padding: 20px 50% 20px 2%;
      }
      p.count_text{
         text-align: center;
@@ -992,7 +979,7 @@ h2.plus{
         background: linear-gradient(90deg, rgba(254, 102, 1, 0.681), rgb(254, 101, 1)), url("../images/skyscrapers-high-buildings-new-york-downtown-usa.jpg");
         min-height: 0px;
         height: 500px;
-        width: 65%;
+        width: 100%;
         background-position: 50%;
         background-size: cover;
         position: relative;
@@ -1053,28 +1040,30 @@ h2.plus{
         height: 400px;
     }
     .image_box_testimonial_ds{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 180px;
         margin-right: 5px;
         background: url("../images/DSighar2.png");
         border-radius: 6px;
         background-size: cover;
     }
     .image_box_testimonial_jfq{
-        width: 200px;
+        width: 160px;
         height: 200px;
         margin-right: 2px;
         background: url("../images/Jacques-Fame-Ndongo_prime.jpg");
         border-radius: 6px;
         background-size: cover;
+        background-position: 40%;
     }
     .image_box_testimonial_ab{
-        width: 300px;
+        width: 170px;
         height: 200px;
         margin-right: 5px;
         background: url("../images/AchilleBasilekin.jpg");
         border-radius: 6px;
         background-size: cover;
+        background-position: 40%;
     }
     .image_box_testimonial_pb{
         width: 160px;
@@ -1105,17 +1094,21 @@ h2.plus{
         color: antiquewhite;
         font-size: 0.7rem;
     }
-    
+    .testimonials {
+        background: linear-gradient(rgba(17, 57, 125, 0.73), rgba(12, 39, 88, 0.796)),url("/images/Background\ \(2\).jpg");
+        height: 800px;
+    }
     .indicator{
         position: relative;
         display: flex;
         justify-content: center;
         top: 0.5px;
     }
-    .swiper-slide{
-        padding: 0 3%;
-    }
+    
     .slide-row.PaulBiya{
-        margin-left: 10%;
+        margin-left:10px ;
+    }
+    .testainer_tipe{
+        width: 410px;
     }
 }

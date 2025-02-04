@@ -654,4 +654,14 @@ textarea.input {
   .localisation{
       padding: 0 0 300px 0;
   }
+  .footer_info {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    font-size: 0.65rem;
+    flex-direction: column;
+ }
+ .footer_info a{
+    padding-left: 100px;
+ }
 }
