@@ -487,6 +487,7 @@ h1 {
     color:aliceblue;
 
 } */
+
  /* Events */
  .events{
     background: #fff;
@@ -957,6 +958,7 @@ h1 {
 } */
 @media (max-width:960px){
     
+    
 }
 @media (max-width:840px){
     .navbar .menu{
@@ -994,7 +996,6 @@ h1 {
        padding-top: 30px;
     }
     .about{
-        margin-bottom: 200px;
         padding: 0px;
     }
     .counter-wrapper{
@@ -1014,9 +1015,7 @@ h1 {
     .image_box_owner{
         width: 95%;
     }
-    .about{
-        margin-bottom: 100px;
-    }
+    
     
 }
 @media (max-width:500px){
