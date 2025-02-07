@@ -698,9 +698,15 @@ h2.plus{
     text-decoration: none;
     width: 20px;
  }
- .socialnetwork a img:hover{
-    transform: scale(1.15);
-    transition: 0.25s ease-in-out;
+ /*Footer*/
+ .main_footer{
+    background-color: black;
+ }
+ .footer_info {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    padding: 20px 20px;
  }
  /*Footer*/
  .main_footer{
