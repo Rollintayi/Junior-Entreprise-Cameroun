@@ -400,8 +400,9 @@ h1 {
     width: 322px;
     height: 260px;
     margin-right: 5px;
-    background: url("../images/DSighar2.png");
+    background: url("../images/WhatsApp\ Image\ 2025-02-14\ à\ 13.19.50_0389430d.jpg");
     border-radius: 6px;
+    background-position-y: -45px;
     background-size: cover;
 }
 .image_box_testimonial_jfq{
@@ -1046,11 +1047,12 @@ h2.plus{
         height: 400px;
     }
     .image_box_testimonial_ds{
-        width: 150px;
-        height: 180px;
+        width: 140px;
+        height: 200px;
         margin-right: 5px;
-        background: url("../images/DSighar2.png");
+        background: url("../images/WhatsApp\ Image\ 2025-02-14\ à\ 13.19.50_0389430d.jpg");
         border-radius: 6px;
+        background-position-y: -25px;
         background-size: cover;
     }
     .image_box_testimonial_jfq{

@@ -173,6 +173,8 @@ h1 {
         margin: 25px 0;
         font-size: 1.2em;
     }
+    
+    
 }
 
 /* .mobile-menu {
@@ -304,13 +306,12 @@ h1 {
 .about {
     align-items: center;
 }
-
 .about-content {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin: 40px 0;
-    height: 450px;
+    height: 300px;
     margin-bottom: 120px;
 }
 
@@ -389,8 +390,9 @@ h1 {
     width: 322px;
     height: 260px;
     margin-right: 5px;
-    background: url("../images/DSighar2.png");
+    background: url("../images/WhatsApp\ Image\ 2025-02-14\ à\ 13.19.50_0389430d.jpg");
     border-radius: 6px;
+    background-position-y: -45px;
     background-size: cover;
 }
 .image_box_testimonial_jfq{
@@ -956,8 +958,15 @@ h1 {
     }
     .
 } */
-@media (max-width:960px){
-    
+@media (max-width:980px){
+    .about-content{
+        display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 40px 0;
+    height: 420px;
+    margin-bottom: 120px;
+    }
     
 }
 @media (max-width:840px){
@@ -976,7 +985,9 @@ h1 {
         padding: 10px 0;
     }
     .about-content{
+        display: flex;
         flex-direction: column;
+        height: 600px;
     }
     .image_box_owner{
         width: 130%;
@@ -1152,11 +1163,12 @@ h1 {
         height: 400px;
     }
     .image_box_testimonial_ds{
-        width: 200px;
+        width: 140px;
         height: 200px;
         margin-right: 5px;
-        background: url("../images/DSighar2.png");
+        background: url("../images/WhatsApp\ Image\ 2025-02-14\ à\ 13.19.50_0389430d.jpg");
         border-radius: 6px;
+        background-position-y: -25px;
         background-size: cover;
     }
     .image_box_testimonial_jfq{
@@ -1234,4 +1246,5 @@ h1 {
      .text-boxt h2{
         font-size: 14px;
      }
+
 }
