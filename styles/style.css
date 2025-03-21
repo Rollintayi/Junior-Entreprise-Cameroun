@@ -554,11 +554,28 @@ h2.plus{
     flex-direction:row;
     background: #fff;
     max-width: 550px;
-    height: 550px;
-    margin-bottom: 20px;
+    height: 500px;
+    margin-bottom: 10px;
     margin-top: 40px;
     border-radius: 12px;
     overflow: hidden;
+ }
+ .event a{
+    background: url("../images/Turkeycameroonmain.jpg");
+    background-size: cover;
+    background-position:0 -90px;
+    width: 550px;
+    height: 250px ;
+ }
+ .event_title{
+    padding: 0 40px;
+    max-height: 50px;
+ }
+ .event_title a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
  }
  .illustration {
     min-width: 300px;
@@ -1054,7 +1071,7 @@ h2.plus{
         border-radius: 6px;
         background-position-y: -25px;
         background-size: cover;
-    }
+    }   
     .image_box_testimonial_jfq{
         width: 160px;
         height: 200px;
