@@ -560,18 +560,31 @@ h2.plus{
     border-radius: 12px;
     overflow: hidden;
  }
- .event a{
+ .event_image{
     background: url("../images/Turkeycameroonmain.jpg");
     background-size: cover;
     background-position:0 -90px;
     width: 550px;
     height: 250px ;
  }
- .event_title{
+ .event_image2{
+    background: url("../images/1740081847820.jpg");
+    background-size: cover;
+    width: 550px;
+    height: 300px ;
+ }
+ .event_image3{
+    background: url("../images/Event1.png");
+    background-size: cover;
+    width: 550px;
+    height: 250px ;
+ }
+ /* .event_title{
     padding: 0 40px;
     max-height: 50px;
- }
+ } */
  .event_title a{
+    
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
@@ -583,8 +596,9 @@ h2.plus{
  }
  .event-text{
     display: flex;
+    flex-wrap: wrap;
     align-items: center ;
-    padding: 0 20px 05px;
+    padding: 0 20px 50px;
  }
  .news_text{
     color: antiquewhite;
