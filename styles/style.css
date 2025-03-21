@@ -579,10 +579,25 @@ h2.plus{
     width: 550px;
     height: 250px ;
  }
- /* .event_title{
-    padding: 0 40px;
+.event_title{
     max-height: 50px;
- } */
+ } 
+ .event_title_1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+ }
+ .event_title_2{
+    display: flex;
+    justify-content: center;
+ }
+ .event_title_2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+ }
  .event_title a{
     
     text-decoration: none;
