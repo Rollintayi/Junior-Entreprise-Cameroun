@@ -123,6 +123,32 @@ h1 {
 .main-title{
     text-align: center;
 }
+
+.text-main_content{
+    font-weight: 400;
+    font-size: 1rem;
+}
+.img-main_content p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.img-main_content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.realimg-main_content{
+   display: flex;
+   justify-content: center;
+}
+.realimg-main_content img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 /*Navbar*/
 .navbar {
     position: fixed;
@@ -580,6 +606,7 @@ h2.plus{
  .news_text{
     color: antiquewhite;
  }
+
  /* Localisation */
  .inscription a{
     text-decoration: none;
