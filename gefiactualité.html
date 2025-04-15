@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="styles/stylegefi.css">
 </head>
 <body>
+    <!-- BOUTON FLOTTANT CHATBOT -->
+    <a id="chatbot-button" href="#" onclick="toggleChat()" title="Discuter avec nous">
+        💬 Discuter avec nous
+        </a>
+        <iframe id="chatbot-frame" src="https://www.chatbase.co/chatbot-iframe/b3yeseYSk4W7n8_85BuC4"></iframe>
     <div class="main-area">
         <section class="home">
             <nav class="navbar">
@@ -78,4 +83,16 @@
         </div>
     </footer>
 </body>
+<iframe id="chatbot-frame" src=""></iframe>
+<script>
+    const chatbotFrame = document.getElementById("chatbot-frame");
+  
+    function toggleChat() {
+      if (chatbotFrame.style.display === "none" || chatbotFrame.style.display === "") {
+        chatbotFrame.style.display = "block";
+      } else {
+        chatbotFrame.style.display = "none";
+      }
+    }
+</script>
 </html>

@@ -855,3 +855,33 @@ h2.plus{
 @media (max-width:500px){
     
 }
+#chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(18, 57, 128); 
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  #chatbot-frame {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 350px;
+    height: 500px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    z-index: 9998;
+    display: none;
+  }
